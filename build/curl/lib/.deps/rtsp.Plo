@@ -1,0 +1,407 @@
+rtsp.lo rtsp.o: ../../../packages/curl/lib/rtsp.c \
+  ../../../packages/curl/lib/setup.h ../lib/curl_config.h \
+  ../include/curl/curlbuild.h /usr/include/sys/types.h \
+  /usr/include/sys/appleapiopts.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/machine/endian.h \
+  /usr/include/i386/endian.h /usr/include/sys/_endian.h \
+  /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/sys/_structs.h \
+  /usr/include/sys/socket.h /usr/include/machine/_param.h \
+  /usr/include/i386/_param.h \
+  ../../../packages/curl/include/curl/curlrules.h /usr/include/stdio.h \
+  /usr/include/_types.h /usr/include/secure/_stdio.h \
+  /usr/include/secure/_common.h /usr/include/assert.h \
+  ../../../packages/curl/lib/setup_once.h /usr/include/stdlib.h \
+  /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
+  /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/machine/signal.h /usr/include/i386/signal.h \
+  /usr/include/i386/_structs.h /usr/include/machine/_structs.h \
+  /usr/include/mach/i386/_structs.h /usr/include/sys/resource.h \
+  /usr/include/alloca.h /usr/include/string.h \
+  /usr/include/secure/_string.h \
+  /usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h \
+  /usr/include/ctype.h /usr/include/runetype.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h /usr/include/_structs.h \
+  /usr/include/sys/_select.h \
+  /usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h \
+  ../../../packages/curl/lib/urldata.h \
+  ../../../packages/curl/lib/cookie.h \
+  ../../../packages/curl/include/curl/curl.h \
+  ../../../packages/curl/include/curl/curlver.h \
+  ../include/curl/curlbuild.h \
+  ../../../packages/curl/include/curl/curlrules.h \
+  /usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h \
+  /usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h ../../../packages/curl/include/curl/easy.h \
+  ../../../packages/curl/include/curl/multi.h \
+  ../../../packages/curl/include/curl/curl.h \
+  ../../../packages/curl/lib/formdata.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/asn1.h /usr/include/openssl/e_os2.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/bio.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h \
+  /usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/pq_compat.h /usr/include/openssl/tls1.h \
+  /usr/include/openssl/dtls1.h /usr/include/openssl/pqueue.h \
+  /usr/include/openssl/ssl23.h /usr/include/openssl/err.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/store.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/pkcs12.h /usr/include/netinet/in.h \
+  /usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h \
+  /usr/include/netinet6/in6.h ../../../packages/curl/lib/timeval.h \
+  /usr/include/zlib.h /usr/include/zconf.h \
+  ../../../packages/curl/lib/http_chunks.h \
+  ../../../packages/curl/lib/hostip.h ../../../packages/curl/lib/hash.h \
+  ../../../packages/curl/lib/llist.h \
+  ../../../packages/curl/lib/curl_addrinfo.h /usr/include/netdb.h \
+  /usr/include/arpa/inet.h ../../../packages/curl/lib/asyn.h \
+  /usr/include/setjmp.h /usr/include/machine/setjmp.h \
+  /usr/include/i386/setjmp.h ../../../packages/curl/lib/splay.h \
+  ../../../packages/curl/lib/imap.h ../../../packages/curl/lib/pingpong.h \
+  ../../../packages/curl/lib/pop3.h ../../../packages/curl/lib/smtp.h \
+  ../../../packages/curl/lib/ftp.h ../../../packages/curl/lib/file.h \
+  ../../../packages/curl/lib/ssh.h ../../../packages/curl/lib/http.h \
+  ../../../packages/curl/lib/rtsp.h ../../../packages/curl/lib/wildcard.h \
+  ../../../packages/curl/lib/transfer.h \
+  ../../../packages/curl/lib/sendf.h ../../../packages/curl/lib/multiif.h \
+  ../../../packages/curl/lib/url.h ../../../packages/curl/lib/progress.h \
+  ../../../packages/curl/lib/rawstr.h \
+  ../../../packages/curl/lib/curl_memory.h \
+  ../../../packages/curl/lib/select.h /usr/include/sys/poll.h \
+  ../../../packages/curl/lib/connect.h \
+  ../../../packages/curl/lib/nonblock.h \
+  ../../../packages/curl/lib/sockaddr.h \
+  ../../../packages/curl/include/curl/mprintf.h \
+  ../../../packages/curl/lib/memdebug.h
+
+../../../packages/curl/lib/setup.h:
+
+../lib/curl_config.h:
+
+../include/curl/curlbuild.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/sys/_structs.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/machine/_param.h:
+
+/usr/include/i386/_param.h:
+
+../../../packages/curl/include/curl/curlrules.h:
+
+/usr/include/stdio.h:
+
+/usr/include/_types.h:
+
+/usr/include/secure/_stdio.h:
+
+/usr/include/secure/_common.h:
+
+/usr/include/assert.h:
+
+../../../packages/curl/lib/setup_once.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/i386/_structs.h:
+
+/usr/include/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/alloca.h:
+
+/usr/include/string.h:
+
+/usr/include/secure/_string.h:
+
+/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h:
+
+/usr/include/ctype.h:
+
+/usr/include/runetype.h:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/time.h:
+
+/usr/include/_structs.h:
+
+/usr/include/sys/_select.h:
+
+/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h:
+
+../../../packages/curl/lib/urldata.h:
+
+../../../packages/curl/lib/cookie.h:
+
+../../../packages/curl/include/curl/curl.h:
+
+../../../packages/curl/include/curl/curlver.h:
+
+../include/curl/curlbuild.h:
+
+../../../packages/curl/include/curl/curlrules.h:
+
+/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h:
+
+/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+../../../packages/curl/include/curl/easy.h:
+
+../../../packages/curl/include/curl/multi.h:
+
+../../../packages/curl/include/curl/curl.h:
+
+../../../packages/curl/lib/formdata.h:
+
+/usr/include/openssl/rsa.h:
+
+/usr/include/openssl/asn1.h:
+
+/usr/include/openssl/e_os2.h:
+
+/usr/include/openssl/opensslconf.h:
+
+/usr/include/openssl/bio.h:
+
+/usr/include/openssl/crypto.h:
+
+/usr/include/openssl/stack.h:
+
+/usr/include/openssl/safestack.h:
+
+/usr/include/openssl/opensslv.h:
+
+/usr/include/openssl/ossl_typ.h:
+
+/usr/include/openssl/symhacks.h:
+
+/usr/include/openssl/bn.h:
+
+/usr/include/openssl/x509.h:
+
+/usr/include/openssl/buffer.h:
+
+/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h:
+
+/usr/include/openssl/evp.h:
+
+/usr/include/openssl/objects.h:
+
+/usr/include/openssl/obj_mac.h:
+
+/usr/include/openssl/ec.h:
+
+/usr/include/openssl/ecdsa.h:
+
+/usr/include/openssl/ecdh.h:
+
+/usr/include/openssl/dsa.h:
+
+/usr/include/openssl/dh.h:
+
+/usr/include/openssl/sha.h:
+
+/usr/include/openssl/x509_vfy.h:
+
+/usr/include/openssl/lhash.h:
+
+/usr/include/openssl/pkcs7.h:
+
+/usr/include/openssl/pem.h:
+
+/usr/include/openssl/pem2.h:
+
+/usr/include/openssl/ssl.h:
+
+/usr/include/openssl/comp.h:
+
+/usr/include/openssl/hmac.h:
+
+/usr/include/openssl/kssl.h:
+
+/usr/include/openssl/ssl2.h:
+
+/usr/include/openssl/ssl3.h:
+
+/usr/include/openssl/pq_compat.h:
+
+/usr/include/openssl/tls1.h:
+
+/usr/include/openssl/dtls1.h:
+
+/usr/include/openssl/pqueue.h:
+
+/usr/include/openssl/ssl23.h:
+
+/usr/include/openssl/err.h:
+
+/usr/include/openssl/engine.h:
+
+/usr/include/openssl/rand.h:
+
+/usr/include/openssl/store.h:
+
+/usr/include/openssl/ui.h:
+
+/usr/include/openssl/pkcs12.h:
+
+/usr/include/netinet/in.h:
+
+/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h:
+
+/usr/include/netinet6/in6.h:
+
+../../../packages/curl/lib/timeval.h:
+
+/usr/include/zlib.h:
+
+/usr/include/zconf.h:
+
+../../../packages/curl/lib/http_chunks.h:
+
+../../../packages/curl/lib/hostip.h:
+
+../../../packages/curl/lib/hash.h:
+
+../../../packages/curl/lib/llist.h:
+
+../../../packages/curl/lib/curl_addrinfo.h:
+
+/usr/include/netdb.h:
+
+/usr/include/arpa/inet.h:
+
+../../../packages/curl/lib/asyn.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/machine/setjmp.h:
+
+/usr/include/i386/setjmp.h:
+
+../../../packages/curl/lib/splay.h:
+
+../../../packages/curl/lib/imap.h:
+
+../../../packages/curl/lib/pingpong.h:
+
+../../../packages/curl/lib/pop3.h:
+
+../../../packages/curl/lib/smtp.h:
+
+../../../packages/curl/lib/ftp.h:
+
+../../../packages/curl/lib/file.h:
+
+../../../packages/curl/lib/ssh.h:
+
+../../../packages/curl/lib/http.h:
+
+../../../packages/curl/lib/rtsp.h:
+
+../../../packages/curl/lib/wildcard.h:
+
+../../../packages/curl/lib/transfer.h:
+
+../../../packages/curl/lib/sendf.h:
+
+../../../packages/curl/lib/multiif.h:
+
+../../../packages/curl/lib/url.h:
+
+../../../packages/curl/lib/progress.h:
+
+../../../packages/curl/lib/rawstr.h:
+
+../../../packages/curl/lib/curl_memory.h:
+
+../../../packages/curl/lib/select.h:
+
+/usr/include/sys/poll.h:
+
+../../../packages/curl/lib/connect.h:
+
+../../../packages/curl/lib/nonblock.h:
+
+../../../packages/curl/lib/sockaddr.h:
+
+../../../packages/curl/include/curl/mprintf.h:
+
+../../../packages/curl/lib/memdebug.h:
